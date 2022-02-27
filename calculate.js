@@ -5,12 +5,12 @@ let maxReward = 0;
 
 for (let frequency = 1; frequency <= 365; frequency++) {
     const x = (1 + APR / 100 / frequency);
-    let $gasFactor = 0;
+    let gasFactor = 0;
     for (let i = 0; i < frequency; i++) {
-        $gasFactor += Math.pow(x, i);
+        gasFactor += Math.pow(x, i);
     }
 
-    const reward = principle * Math.pow(x, frequency) - (gasFee * $gasFactor);
+    const reward = principle * Math.pow(x, frequency) - (gasFee * gasFactor);
 
     if (reward > maxReward) {
         maxFrequency = frequency;
