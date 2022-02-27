@@ -21,7 +21,7 @@ The following variables are default and suggested settings:
 SLIPPAGE_TOLERANCE_PERCENTAGE=0.5   //the difference between the expected price of a trade and the executed price of that trade
 TIME_INTERVAL_IN_DAYS=1             //how often the bot executes
 TRANSACTION_DEADLINE_IN_MINUTES=20  //the deadline by which the transaction must confirm
-TRANSACTION_GAS_PRICE=5             //the amount you will pay pay per unit of gas.
+TRANSACTION_GAS_PRICE=5             //the amount you will pay per unit of gas.
 TRANSACTION_GAS_LIMIT=300000        //the maximum units of gas you are willing to use
 ```
 
