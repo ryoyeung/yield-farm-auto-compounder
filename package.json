@@ -1,7 +1,7 @@
 {
   "name": "yield-farm-auto-compounder",
   "version": "1.0.0",
-  "description": "A working yield farm auto-compounder on Pancakeswap",
+  "description": "A working yield farm auto-compounder bot on Pancakeswap",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",

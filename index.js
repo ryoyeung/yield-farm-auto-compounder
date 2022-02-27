@@ -24,7 +24,7 @@ const transactionDeadlineInMinutes = process.env.TRANSACTION_DEADLINE_IN_MINUTES
 const timeIntervalInDays = process.env.TIME_INTERVAL_IN_DAYS;
 const transactionGas = {
     gasPrice: ethers.utils.parseUnits(process.env.TRANSACTION_GAS_PRICE, 'gwei'),
-    gasLimit: process.env.TRANSACTIOB_GAS_LIMIT,
+    gasLimit: process.env.TRANSACTION_GAS_LIMIT,
 };
 
 const wallet = new ethers.Wallet(

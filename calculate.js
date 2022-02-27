@@ -27,8 +27,8 @@ const APY = (maxReward - principle) / principle * 100;
 const extraReward = APY - APR;
 
 console.log(`Given principle: $${principle}`);
-console.log(`Optimal time interval: ${timeInterval} days (Frequency ${maxFrequency} per year)`);
-console.log(`Projected reward: $${maxReward}`);
+console.log(`Optimal time interval: ${roundTo2Decimal(timeInterval)} days (Frequency ${maxFrequency} per year)`);
+console.log(`Projected reward: $${roundTo2Decimal(maxReward)}`);
 console.log(`APR: ${APR}%`);
 console.log(`APY: ${roundTo2Decimal(APY)}%`);
 console.log(`Extra reward: ${roundTo2Decimal(extraReward)}%`);
