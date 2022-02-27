@@ -32,15 +32,17 @@ As you may have known, any transaction on blockchain needs transaction fee(gas).
 ```
 npm run calculate :principle :APRofTheFarm :bnbPrice :totalGas
 
-Given principle: $1000
-Optimal time interval: 52.14 days (Frequency 7 per year)
-Projected reward: $1401.81
+Example:
+npm run calculate 10000 35.52 376 0.004
+
+Given principle: $10000
+Optimal time interval: 16.59 days (Frequency 22 per year)
+Total amount after a year: $14184.9
 APR: 35.52%
-APY: 40.18%
-Extra reward: 4.66%
+APY: 41.85%
+Extra reward: 6.33%
 ```
 
-Replace `TIME_INTERVAL_IN_DAYS` with the calculated one.
-The frequency is calculated on daily basis, it can also be modified calculate more frequent compounding.
+Replace `TIME_INTERVAL_IN_DAYS` with the calculated one. The frequency is calculated on daily basis, it can also be modified calculate more frequent compounding.
 
 
